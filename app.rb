@@ -6,7 +6,6 @@ get '/' do
     erb :shell
 end
 
-
 post '/shells' do
     shells = params[:shells]
     redirect '/meat?shells=' + shells
