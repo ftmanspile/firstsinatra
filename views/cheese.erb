@@ -1,0 +1,14 @@
+<b> Ok!</b>
+<br>
+So that will be a <%= shells %> shell with <%= meat_choice %>.
+Next, what kind of cheese would you like on your taco?
+<form method="post" action="cheese">
+    <input type="text"  name="cheese_choice">
+    <input type="text" name="shells" value=<%= shells %> hidden>
+    <input type="text" name="meat_choice" value=<%= meat_choice %> hidden>
+    <br>
+    <br>
+    <input type="submit">
+</form>
+
+
